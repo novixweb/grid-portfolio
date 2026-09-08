@@ -685,3 +685,82 @@ Connect
     padding: 3rem;
   }
 }
+
+
+/* 
+====================
+Skills
+====================
+*/
+.skills {
+  background: var(--clr-primary-4);
+}
+
+.skills h3 {
+  color: var(--clr-primary-1);
+  margin: 1.5rem 0;
+}
+
+.skill {
+  margin-bottom: 1.5rem;
+}
+
+.skill p {
+  color: var(--clr-primary-1);
+  margin-bottom: 0.5rem 0;
+}
+
+.skill-container {
+  background: var(--clr-white);
+  height: 1rem;
+  width: 100%;
+  border-radius: var(--radius);
+  position: relative;
+}
+
+.skill-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--clr-primary-2);
+  height: 100%;
+  border-radius: var(--radius);
+}
+
+.value-50 {
+  width: 50%;
+}
+
+.value-70 {
+  width: 70%;
+}
+
+.value-80 {
+  width: 80%;
+}
+
+.skill-text {
+  position: absolute;
+  top: -1.5rem;
+  transform: translate(-50%);
+}
+
+.skill-text-50 {
+  left: 50%;
+}
+
+.skill-text-70 {
+  left: 70%;
+}
+
+.skill-text-80 {
+  left: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
