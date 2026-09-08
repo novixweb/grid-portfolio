@@ -578,7 +578,7 @@ Projects
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
-  
+
   .project {
     margin-bottom: 0;
   }
@@ -620,5 +620,68 @@ Projects
 
   .project-4 {
     grid-area: project-4;
+  }
+}
+
+/* 
+====================
+Connect
+====================
+*/
+.connect {
+  min-height: 40rem;
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 10rem 0;
+  margin: 5rem 0;
+
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 10%,
+    100% 90%,
+    50% 100%,
+    0% 90%,
+    0% 10%
+  );
+
+  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%, 0% 10%);
+}
+
+.connect::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr-white);
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.video-banner {
+  background: var(--clr-primary-5);
+  text-align: center;
+  padding: 1.75rem;
+}
+
+.video-banner p {
+  max-width: 30rem;
+}
+
+@media screen and (min-width: 676px) {
+  .video-banner {
+    padding: 3rem;
   }
 }
