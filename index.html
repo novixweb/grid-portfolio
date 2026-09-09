@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NovixWeb؛ طراحی و توسعه وب‌سایت‌های مدرن و ریسپانسیو با HTML، CSS، JavaScript و PHP Laravel."
+    />
+    <!-- Preload Vazir Font -->
+     <link rel="preload" href="./fonts/vazir/Vazir-Medium-FD-WOL.woff" as="font" type="font/woff" crossorigin>
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="./css/bootstrap-icons.css" />
     <!-- Style Css -->
@@ -25,7 +31,7 @@
       sizes="16x16"
       href="./images/favicon_io/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="./site.webmanifest" />
     <!-- Title -->
     <title>novixweb || Css Grid Layout Project</title>
   </head>
@@ -37,7 +43,12 @@
         <div class="nav-center">
           <div class="nav-header">
             <h3>NovixWeb</h3>
-            <button id="nav-btn" class="nav-btn">
+            <button
+              type="button"
+              aria-label="باز کردن منو"
+              id="nav-btn"
+              class="nav-btn"
+            >
               <i class="bi bi-list-nested"></i>
             </button>
           </div>
@@ -74,7 +85,12 @@
       <!-- Sidebar -->
       <aside id="sidebar" class="sidebar">
         <div>
-          <button id="close-btn" class="close-btn">
+          <button
+            type="button"
+            aria-label="بسته کردن منو"
+            id="close-btn"
+            class="close-btn"
+          >
             <i class="bi bi-x"></i>
           </button>
 
@@ -107,27 +123,27 @@
 
           <ul class="social-icons">
             <li>
-              <a class="social-icon" href="">
+              <a aria-label="فیسبوک" class="social-icon" href="">
                 <i class="bi bi-facebook"></i>
               </a>
             </li>
             <li>
-              <a class="social-icon" href="">
+              <a aria-label="لینکدین" class="social-icon" href="">
                 <i class="bi bi-linkedin"></i>
               </a>
             </li>
             <li>
-              <a class="social-icon" href="">
+              <a aria-label="تلگرام" class="social-icon" href="">
                 <i class="bi bi-telegram"></i>
               </a>
             </li>
             <li>
-              <a class="social-icon" href="">
+              <a aria-label="واتساپ" class="social-icon" href="">
                 <i class="bi bi-whatsapp"></i>
               </a>
             </li>
             <li>
-              <a class="social-icon" href="">
+              <a aria-label="اینستاگرام" class="social-icon" href="">
                 <i class="bi bi-instagram"></i>
               </a>
             </li>
@@ -141,32 +157,32 @@
           <article class="hero-info">
             <div class="underline"></div>
             <h2>لورم ایپسوم</h2>
-            <h4>لورم ایپسوم متن ساختگی با تولید سادگی</h4>
+            <h3>لورم ایپسوم متن ساختگی با تولید سادگی</h3>
             <a href="#" class="btn hero-btn">لورم ایپسوم</a>
 
             <ul class="social-icons hero-icons">
               <li>
-                <a class="social-icon" href="">
+                <a aria-label="فیسبوک" class="social-icon" href="">
                   <i class="bi bi-facebook"></i>
                 </a>
               </li>
               <li>
-                <a class="social-icon" href="">
+                <a aria-label="لینکدین" class="social-icon" href="">
                   <i class="bi bi-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a class="social-icon" href="">
+                <a aria-label="تلگرام" class="social-icon" href="">
                   <i class="bi bi-telegram"></i>
                 </a>
               </li>
               <li>
-                <a class="social-icon" href="">
+                <a aria-label="واتساپ" class="social-icon" href="">
                   <i class="bi bi-whatsapp"></i>
                 </a>
               </li>
               <li>
-                <a class="social-icon" href="">
+                <a aria-label="اینستاگرام" class="social-icon" href="">
                   <i class="bi bi-instagram"></i>
                 </a>
               </li>
@@ -224,7 +240,7 @@
 
         <div class="section-center services-center">
           <article class="service">
-            <h4>لورم ایپسوم</h4>
+            <h3>لورم ایپسوم</h3>
             <div class="underline"></div>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -233,7 +249,7 @@
             </p>
           </article>
           <article class="service">
-            <h4>لورم ایپسوم</h4>
+            <h3>لورم ایپسوم</h3>
             <div class="underline"></div>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -242,7 +258,7 @@
             </p>
           </article>
           <article class="service">
-            <h4>لورم ایپسوم</h4>
+            <h3>لورم ایپسوم</h3>
             <div class="underline"></div>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -276,7 +292,7 @@
                 alt="Project Image"
               />
               <div class="project-info">
-                <h4>عنوان پروژه</h4>
+                <h3>عنوان پروژه</h3>
                 <p>لورم ایپسوم</p>
               </div>
             </article>
@@ -290,7 +306,7 @@
                 alt="Project Image"
               />
               <div class="project-info">
-                <h4>عنوان پروژه</h4>
+                <h3>عنوان پروژه</h3>
                 <p>لورم ایپسوم</p>
               </div>
             </article>
@@ -304,7 +320,7 @@
                 alt="Project Image"
               />
               <div class="project-info">
-                <h4>عنوان پروژه</h4>
+                <h3>عنوان پروژه</h3>
                 <p>لورم ایپسوم</p>
               </div>
             </article>
@@ -318,7 +334,7 @@
                 alt="Project Image"
               />
               <div class="project-info">
-                <h4>عنوان پروژه</h4>
+                <h3>عنوان پروژه</h3>
                 <p>لورم ایپسوم</p>
               </div>
             </article>
@@ -432,7 +448,7 @@
 
         <div class="section-center timeline-center">
           <article class="timeline-item">
-            <h4>1397</h4>
+            <h3>1397</h3>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -442,7 +458,7 @@
           </article>
 
           <article class="timeline-item">
-            <h4>1398</h4>
+            <h3>1398</h3>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -452,7 +468,7 @@
           </article>
 
           <article class="timeline-item">
-            <h4>1399</h4>
+            <h3>1399</h3>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -462,7 +478,7 @@
           </article>
 
           <article class="timeline-item">
-            <h4>1400</h4>
+            <h3>1400</h3>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -472,7 +488,7 @@
           </article>
 
           <article class="timeline-item">
-            <h4>1401</h4>
+            <h3>1401</h3>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -482,7 +498,7 @@
           </article>
 
           <article class="timeline-item">
-            <h4>1402</h4>
+            <h3>1402</h3>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -506,14 +522,14 @@
             <div class="card-side card-front">
               <img src="images/img-1.webp" alt="Blog Image" />
               <div class="card-info">
-                <h4>لورم ایپسوم</h4>
+                <h3>لورم ایپسوم</h3>
                 <p>
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                   استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
                   مجله در ستون و سطرآنچنان که لازم است
                 </p>
                 <div class="card-footer">
-                  <img src="images/hero-img.webp" alt="Author Image" />
+                  <img src="images/blog-img.webp" alt="Author Image" />
                   <p>7 دقیقه</p>
                 </div>
               </div>
@@ -526,14 +542,14 @@
             <div class="card-side card-front">
               <img src="images/img-2.webp" alt="Blog Image" />
               <div class="card-info">
-                <h4>لورم ایپسوم</h4>
+                <h3>لورم ایپسوم</h3>
                 <p>
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                   استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
                   مجله در ستون و سطرآنچنان که لازم است
                 </p>
                 <div class="card-footer">
-                  <img src="images/hero-img.webp" alt="Author Image" />
+                  <img src="images/blog-img.webp" alt="Author Image" />
                   <p>5 دقیقه</p>
                 </div>
               </div>
@@ -546,14 +562,14 @@
             <div class="card-side card-front">
               <img src="images/img-3.webp" alt="Blog Image" />
               <div class="card-info">
-                <h4>لورم ایپسوم</h4>
+                <h3>لورم ایپسوم</h3>
                 <p>
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                   استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
                   مجله در ستون و سطرآنچنان که لازم است
                 </p>
                 <div class="card-footer">
-                  <img src="images/hero-img.webp" alt="Author Image" />
+                  <img src="images/blog-img.webp" alt="Author Image" />
                   <p>9 دقیقه</p>
                 </div>
               </div>
@@ -566,14 +582,14 @@
             <div class="card-side card-front">
               <img src="images/img-4.webp" alt="Blog Image" />
               <div class="card-info">
-                <h4>لورم ایپسوم</h4>
+                <h3>لورم ایپسوم</h3>
                 <p>
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                   استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
                   مجله در ستون و سطرآنچنان که لازم است
                 </p>
                 <div class="card-footer">
-                  <img src="images/hero-img.webp" alt="Author Image" />
+                  <img src="images/blog-img.webp" alt="Author Image" />
                   <p>6 دقیقه</p>
                 </div>
               </div>
@@ -590,32 +606,32 @@
       <footer class="footer">
         <ul class="social-icons">
           <li>
-            <a class="social-icon" href="">
+            <a aria-label="فیسبوک" class="social-icon" href="">
               <i class="bi bi-facebook"></i>
             </a>
           </li>
           <li>
-            <a class="social-icon" href="">
+            <a aria-label="لینکدین" class="social-icon" href="">
               <i class="bi bi-linkedin"></i>
             </a>
           </li>
           <li>
-            <a class="social-icon" href="">
+            <a aria-label="تلگرام" class="social-icon" href="">
               <i class="bi bi-telegram"></i>
             </a>
           </li>
           <li>
-            <a class="social-icon" href="">
+            <a aria-label="واتساپ" class="social-icon" href="">
               <i class="bi bi-whatsapp"></i>
             </a>
           </li>
           <li>
-            <a class="social-icon" href="">
+            <a aria-label="اینستاگرام" class="social-icon" href="">
               <i class="bi bi-instagram"></i>
             </a>
           </li>
         </ul>
-        
+
         <p>لورم ایپسوم متن ساختگی است &copy; <span id="date"></span></p>
       </footer>
       <!-- Footer End -->

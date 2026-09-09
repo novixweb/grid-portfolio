@@ -9,6 +9,7 @@ Fonts
     url("../fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff"),
     url("../fonts/vazir/Vazir-Medium-FD-WOL.woff2") format("woff2"),
     url("../fonts/vazir/Vazir-Medium-FD-WOL.ttf") format("truetype");
+    font-display: swap;
 }
 
 /* 
@@ -359,9 +360,10 @@ Hero Header
   margin-bottom: 1rem;
 }
 
-.hero-info h4 {
+.hero-info h3 {
   color: var(--clr-grey-2);
   margin-top: 2rem;
+  font-size: 1.125rem;
 }
 
 .hero-btn {
@@ -480,6 +482,10 @@ Services
   color: var(--clr-white);
 }
 
+.service h3 {
+  font-size: 1.17rem;
+}
+
 .service p {
   transition: var(--transition);
 }
@@ -565,6 +571,10 @@ Projects
 
 .project:hover .project-info {
   opacity: 1;
+}
+
+.project-info h3 {
+  font-size: 1.17rem;
 }
 
 .project-info p {
@@ -711,7 +721,7 @@ Skills
 }
 
 .skill p {
-  color: var(--clr-primary-1);
+  color: var(--clr-grey-1);
   margin-bottom: 0.5rem 0;
 }
 
@@ -779,6 +789,10 @@ Timeline
 .timeline-center {
   width: 80vw;
   max-width: 40rem;
+}
+
+.timeline-item h3 {
+  font-size: 1.17rem;
 }
 
 .timeline p {
@@ -922,6 +936,10 @@ Blog
   align-items: center;
 }
 
+.card-info h3 {
+  font-size: 1.17rem;
+}
+
 .card-footer p {
   margin-bottom: 0;
   justify-self: end;
@@ -961,4 +979,5 @@ Footer
 
 .footer p {
   font-size: 1.25rem;
+  color: var(--clr-white);
 }
